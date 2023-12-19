@@ -1,0 +1,241 @@
+// h2 {
+//     font-family: "Playfair Display", serif;
+//     font-size: 14px;
+//     font-weight: normal;
+//     font-family: "Roboto", sans-serif;
+//     background: #f4f4f4;
+//     line-height: 40px;
+//     padding-left: 30px;
+//     margin-bottom: 0px;
+// }
+
+// p {
+//     margin-top: 15px;
+//     padding-left: 30px;
+//     margin-bottom: 25px;
+//     font-size: 14px;
+//     font-family: "Roboto", sans-serif;
+//     color: #301A22;
+//     font-weight: 300;
+// }
+
+.checkout-img {
+    background: url("../assets/images/aboutbg.jpg") center no-repeat;
+    background-size: cover;
+    height: 350px;
+
+    .checkout-caption {
+        h2 {
+            color: rgb(255, 255, 255);
+            font-size: 50px;
+            display: block;
+            font-weight: 400;
+            line-height: 1.4;
+            background: transparent;
+            font-family: "Playfair Display", serif;
+
+        }
+    }
+
+}
+
+h3 {
+    font-size: 18px;
+    color: #2a2a2a;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+.customer {
+    .check-customer {
+        h2 {
+            font-family: "Playfair Display", serif;
+            font-size: 14px;
+            font-weight: normal;
+            font-family: "Roboto", sans-serif;
+            background: #f4f4f4;
+            line-height: 40px;
+            padding-left: 30px;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.cupon {
+    .check-cupon {
+        h2 {
+            font-family: "Playfair Display", serif;
+            font-size: 14px;
+            font-weight: normal;
+            font-family: "Roboto", sans-serif;
+            background: #f4f4f4;
+            line-height: 40px;
+            padding-left: 30px;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.order-box {
+    background: rgb(244, 244, 244);
+    padding: 30px;
+
+    h2 {
+        border-bottom: 1px solid rgb(221, 221, 221);
+        font-size: 18px;
+        font-weight: 500;
+        color: rgb(42, 42, 42);
+        padding-bottom: 15px;
+        font-family: "Playfair Display", serif;
+        line-height: 40px;
+        padding-left: 30px;
+        margin-bottom: 0px;
+    }
+
+    #list1 {
+        margin: 0px;
+        padding: 0px;
+
+        li {
+            list-style: none;
+            text-align: -webkit-match-parent;
+
+            .list-items {
+                font-size: 14px;
+                color: rgb(121, 121, 121);
+                font-weight: normal;
+                border-bottom: 1px solid rgb(238, 238, 238);
+                display: block;
+                line-height: 42px;
+                text-decoration: none;
+                outline: none medium;
+
+                span {
+                    float: right;
+                }
+
+                .middle-list {
+                    float: none;
+                    width: 50px;
+                    text-align: right;
+                    display: inline-block;
+                    margin-left: 30px;
+                    color: #2a2a2a;
+                }
+
+                .last-list {
+                    float: right;
+                }
+            }
+        }
+    }
+
+    #list2 {
+        margin: 0px;
+        padding: 0px;
+
+        li {
+            list-style: none;
+
+            .list-items2 {
+                text-transform: uppercase;
+                color: #2a2a2a;
+                font-weight: 500;
+                font-size: 14px;
+                border-bottom: 1px solid #eeeeee;
+                display: block;
+                line-height: 42px;
+                text-decoration: none;
+                outline: none medium;
+
+                span {
+                    color: #797979;
+                    text-transform: capitalize;
+                    float: right;
+                }
+            }
+        }
+    }
+
+    .payment1 {
+        p {
+            background: #fff;
+            padding: 20px;
+            font-size: 14px;
+            font-family: "Roboto", sans-serif;
+            color: #301A22;
+            font-weight: 300;
+            margin-bottom: 15px;
+            line-height: 1.6;
+
+        }
+    }
+
+    .payment2 {
+        p {
+            background: #fff;
+            padding: 20px;
+            font-size: 14px;
+            font-family: "Roboto", sans-serif;
+            color: #301A22;
+            font-weight: 300;
+            margin-bottom: 15px;
+            line-height: 1.6;
+
+        }
+    }
+
+    .term-condition {
+        margin: 15px 0px;
+        font-size: 12px;
+
+    }
+
+    .Procceed {
+        Button {
+            background: #FF1616;
+            font-family: "Roboto", sans-serif;
+            text-transform: inherit !important;
+            padding: 22px 32px;
+            color: #fff !important;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 16px !important;
+            font-weight: 500 !important;
+            border-radius: 35px;
+            line-height: 1;
+            line-height: 0;
+            cursor: pointer;
+            transition: color 0.4s linear;
+            position: relative;
+            z-index: 1;
+            border: 0;
+            overflow: hidden;
+            width: 100%;
+
+        }
+
+        Button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #CF0F0F;
+            border: #CF0F0F;
+            // border-radius: 25px;
+            width: 100%;
+            height: 100%;
+            transform: translateX(-100%);
+            transition: all 0.3s linear;
+            z-index: -1;
+        }
+
+        Button:hover:before {
+            transform: translateX(0);
+        }
+    }
+
+
+}

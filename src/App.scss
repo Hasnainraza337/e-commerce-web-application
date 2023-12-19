@@ -1,0 +1,35 @@
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Roboto&display=swap');
+ @import "./scss/bootstrap";
+ @import "./scss/header";
+ @import "./scss/footer";
+ @import "./scss/fronthome";
+ @import "./scss/category";
+ @import "./scss/about";
+ @import "./scss/contact";
+ @import "./scss/bookDetails";
+ @import "./scss/checkout";
+ @import "./scss/cart";
+ @import "./scss/cartcard";
+ @import "./scss/auth";
+ @import "./scss/dashboard";
+ @import "./scss/dashboardTab";
+ @import "./scss/products";
+
+
+ * {
+     font-family: 'Roboto', sans-serif;
+ }
+
+ #root {
+     background-color: #fff;
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+     width: 100%;
+
+
+ }
+
+ main {
+     flex: 1 0 auto;
+ }

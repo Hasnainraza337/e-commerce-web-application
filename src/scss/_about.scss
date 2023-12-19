@@ -1,0 +1,45 @@
+h2 {
+    font-family: "Playfair Display", serif;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    color: rgb(112, 112, 112);
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.description {
+    padding-bottom: 50px;
+}
+
+.about-img {
+    background: url("../assets/images/aboutbg.jpg") center no-repeat;
+    background-size: cover;
+    height: 350px;
+
+    .about-caption {
+        h2 {
+            color: rgb(255, 255, 255);
+            font-size: 50px;
+            display: block;
+            font-weight: 400;
+            line-height: 1.4;
+
+        }
+    }
+
+}
+
+.story {
+    h2 {
+        font-size: 30px;
+        display: block;
+        font-weight: 700;
+        line-height: 1.4;
+        margin-bottom: 22px;
+    }
+}

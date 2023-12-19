@@ -1,0 +1,410 @@
+.main {
+    background-color: #fef4f4;
+    min-height: 100vh;
+
+
+    .main-slider {
+        height: 580px;
+    }
+
+
+
+
+    .bg-img-1 {
+        background-image: url("../assets//images/h1_hero1.jpg");
+    }
+
+    .bg-img-2 {
+        background-image: url("../assets/images/h1_hero2.jpg");
+    }
+
+    .bg-img-3 {
+        background-image: url("../assets/images/h1_hero3.jpg");
+    }
+
+    .carousel-image {
+        height: 580px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .selling-books {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        .main-slider {
+            height: 450px;
+        }
+
+        .carousel-image {
+            height: 450px;
+
+        }
+
+    }
+}
+
+.carousel-caption {
+    color: #fff;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    h1 {
+        font-size: 60px;
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+    }
+}
+
+
+
+//card slide
+.card-slider {
+    padding-bottom: 100px;
+
+
+    .card {
+        width: 208px !important;
+        border: none;
+        margin-bottom: 10px;
+
+        &:hover {
+            box-shadow: rgba(255, 6, 6, 0.2) 0px 7px 15px 0px;
+
+            .card-caption {
+                h3 {
+                    color: #FF1616;
+                }
+            }
+        }
+    }
+
+    .card-image {
+        width: 208px;
+    }
+
+    .card-caption {
+        padding: 15px 20px 10px 20px;
+
+        h3 {
+            font-family: "Playfair Display", serif;
+            color: #1a1a1a;
+            margin-top: 0px;
+            font-style: normal;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 6px;
+
+        }
+
+        p {
+            color: #9498A7;
+            font-size: 14px;
+            margin-bottom: 11px;
+        }
+
+        .card-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .price {
+                font-weight: 600;
+                color: #FF1616;
+                font-size: 22px;
+
+            }
+
+        }
+    }
+}
+
+
+
+// featured container
+.featured-container {
+    .view {
+        transition: ease 0.8s all;
+
+        &:hover {
+            letter-spacing: 1px;
+        }
+    }
+
+    .featured-slider1 {
+        height: 485px;
+    }
+
+    .featured-slider {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .featiured-caption {
+        h3 {
+
+            color: #fff;
+            font-size: 40px;
+            line-height: 1.2;
+            margin-bottom: 9px;
+            font-weight: 400;
+            display: block;
+            font-family: "Playfair Display", serif;
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    .featured-slider1 {
+        height: 800px !important;
+    }
+
+    .featured-slider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .feature-image {
+            margin-bottom: 12px;
+        }
+    }
+
+}
+
+
+
+h2 {
+
+    font-size: 30px;
+    color: #1a1a1a;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+}
+
+
+// middle2
+
+.card-product {
+
+    .card {
+        min-width: 168px;
+
+        &:hover {
+            box-shadow: rgba(255, 6, 6, 0.2) 0px 7px 15px 0px;
+
+            .card-caption {
+                h3 {
+                    color: #FF1616;
+                }
+            }
+        }
+
+        .card-image {
+            min-width: 166px !important;
+        }
+    }
+
+
+
+
+
+    .card-caption {
+        padding: 15px 20px 10px 20px;
+
+        h3 {
+            font-family: "Playfair Display", serif;
+            color: #1a1a1a;
+            margin-top: 0px;
+            font-style: normal;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 6px;
+
+        }
+
+        p {
+            color: #9498A7;
+            font-size: 14px;
+            margin-bottom: 11px;
+        }
+
+        .card-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .price {
+                font-weight: 600;
+                color: #FF1616;
+                font-size: 22px;
+
+            }
+
+        }
+    }
+
+}
+
+
+// middle3
+
+.main-middle3 {
+    padding-bottom: 35px;
+
+    .bg-history1 {
+        background: url(../assets/images/bg1.jpeg) center no-repeat;
+        background-size: cover;
+        min-height: 218px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+
+        h2 {
+            background: transparent;
+            font-size: 30px;
+            color: #1a1a1a;
+            font-weight: 700;
+            font-family: "Playfair Display", serif;
+        }
+
+    }
+
+    @media screen and (max-width:400px) {
+        .bg-caption {
+            // min-height: 218px;
+            flex-direction: column;
+
+            h2 {
+                background: transparent;
+                font-size: 25px;
+                color: #1a1a1a;
+                font-weight: 700;
+                font-family: "Playfair Display", serif;
+            }
+        }
+
+
+    }
+
+    .bg-history2 {
+        background: url(../assets/images/bg2.jpeg) center no-repeat;
+        background-size: cover;
+        min-height: 218px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+
+        h2 {
+            background: transparent;
+            font-size: 30px;
+            color: #1a1a1a;
+            font-weight: 700;
+            font-family: "Playfair Display", serif;
+        }
+    }
+}
+
+// subscribe container
+
+
+.subscribe-container {
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        background: #FEF4F4 !important;
+        height: 45%;
+        width: 100%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+
+    }
+
+    .subscribe {
+        background: url(../assets/images/subBackground.jpeg) center no-repeat;
+        background-size: cover;
+        min-height: 350px;
+        position: relative;
+        width: 100%;
+    }
+
+    .subscribe-caption {
+
+        h3 {
+            font-family: "Playfair Display", serif;
+            color: #1a1a1a;
+            font-style: normal;
+            font-size: 40px;
+            font-weight: 400;
+        }
+
+        p {
+            color: #9498A7;
+            font-size: 16px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            line-height: 1.6;
+        }
+
+        .form {
+            display: flex;
+            justify-content: center;
+
+            .input {
+                width: 250px;
+                padding: 14px 25px;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .form {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+
+        #input {
+            display: flex;
+            justify-content: center;
+        }
+
+        .input {
+            width: 80% !important;
+            padding: 15px 14px;
+            margin-bottom: 15px;
+
+        }
+
+        Button {
+
+            width: 80%;
+        }
+    }
+}

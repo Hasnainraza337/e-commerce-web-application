@@ -1,0 +1,49 @@
+.Book-Details {
+    background: #FF1616 no-repeat center;
+    background-size: cover;
+    padding: 29px 20px 29px 80px;
+
+    .book-slider {
+        display: flex;
+        align-items: center;
+    }
+
+    .Book-caption {
+        h3 {
+
+            color: #fff;
+            font-size: 40px;
+            line-height: 1.2;
+            margin-bottom: 9px;
+            font-weight: 400;
+            display: block;
+            font-family: "Playfair Display", serif;
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    .Book-Details {
+        height: 800px !important;
+    }
+
+    .book-slider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+        .bookdetails-image {
+            margin-bottom: 12px;
+        }
+    }
+
+}
